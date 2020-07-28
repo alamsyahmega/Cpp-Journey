@@ -48,4 +48,16 @@ int main () {
       std::cout << "Jawaban salah, ulangi" << std::endl;
     }
   }
+
+
+  // Continue digunakan untuk melanjutkan loop, tetapi tidak akan mengeksekusi bagian program dibawahnya
+  // Contoh
+  std::cout << "Continue example" << std::endl;
+  for (int x=0; x <= 10; ++x) {
+    if (x >= 4 && x <=8 ) {
+      continue;
+    }
+    // dari x=4 sampai dengan x=8 tidak akan dieksekusi
+    std::cout << x << std::endl;
+  }
 }
